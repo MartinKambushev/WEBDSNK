@@ -1,0 +1,119 @@
+<DOCTYPE! html>
+    <html>
+
+    <head>
+        <title>Курсова задача (Неон)</title>
+        <link rel="stylesheet" href="styleP1.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <div class="title">
+            <h1>REGISTER FORM</h1>
+        </div>
+        <nav>
+            <a href="index.html">PAGE1
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <a href="index2.html">PAGE2
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <a href="index3.html">PAGE3
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <a href="form.html">PAGE4
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </nav>
+        <div class="main-contents">
+            <div class="form">
+                <form id="registerForm">
+                    <div class="container">
+                        <div class="box"></div>
+                        <div class="form-container">
+
+                            <h2>Регистрация</h2>
+                            <label>Име:
+                                    <input type="text" id="name" required>
+                                </label>
+                            <label>Факултетен номер:
+                                    <input type="text" id="facultyNumber" pattern="\d{6}" required>
+                                    <span class="error" id="facultyError"></span>
+                                </label>
+                            <label>Email:
+                                    <input type="email" id="email" required>
+                                </label>
+                            <label>Дата на раждане:
+                                    <input type="date" id="dob" required>
+                                </label>
+                            <label>Парола:
+                                    <input type="password" id="password" required>
+                                </label>
+                            <label>Потвърди паролата:
+                                    <input type="password" id="confirmPassword" required>
+                                    <span class="error" id="passwordError"></span>
+                                </label>
+                            <button type="submit">Регистрирай                
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span></button>
+                            <button type="reset">Изчисти                
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+                            <p id="successMessage" style="color: #7AF090; display: none;">Формата е изпратена успешно!</p>
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="contact-side">
+                <p>
+                    Контакти
+                    <br> Адрес:
+                    <br> ул. Примерна 123, ет. 2, гр. София, България
+                </p>
+                <p>
+                    Телефон:
+                    <br> +359 88 123 4567
+                </p>
+                <p>
+                    Имейл:
+                    <br> contact@demo-site.com
+                </p>
+                <p>
+                    Уебсайт:
+                    <br> www.demo-site.com
+                </p>
+                <p>
+                    Работно време:
+                    <br> Понеделник – Петък: 09:00 – 18:00
+                    <br> Събота – Неделя: Почивен ден
+                </p>
+                <p>
+                    Социални мрежи:
+                    <br> Facebook
+                    <br> Instagram
+                    <br> LinkedIn
+                </p>
+            </div>
+
+    </body>
+
+    </html>
