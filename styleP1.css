@@ -293,13 +293,4 @@ button:hover {
         justify-content: space-evenly;
         border: 1px #79C698 solid;
     }
-    .contact-side {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 855px;
-        width: 400px;
-        background-color: #79C698;
-    }
 }
