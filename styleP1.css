@@ -155,16 +155,21 @@ li>p {
 .form-container {
     margin: 0 50px 0 5px;
     height: 100%;
-    width: 1000px;
-    display: grid;
-    justify-content: center;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
     border: 1px #79C698 solid;
 }
 
 input {
     color: #79C698;
     border: 1px #79C698 solid;
+}
+
+label {
+    font-size: 20px;
 }
 
 label,
@@ -273,4 +278,28 @@ button:hover {
     background: #79C698;
     box-shadow: 0 0 10px #79C698, 0 0 40px #79C698, 0 0 80px #79C698;
     transition-delay: 1s;
+}
+
+@media only screen and (max-width: 800px) {
+    .main-contents {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .form-container {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border: 1px #79C698 solid;
+    }
+    .contact-side {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 855px;
+        width: 400px;
+        background-color: #79C698;
+    }
 }
